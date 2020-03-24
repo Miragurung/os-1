@@ -57,7 +57,7 @@ long display(bool prompt=false)
     cout<<"\t\t=================================================================================================\n";
     cout<<"\t\t ||                          Operating System Scheduling                                    ||\n";
                                                  
-    cout<<"\t\t ||                                                                                         ||\n";
+                                                 
     cout<<"\t\t ||/*Design a scheduling program to implements a Queue with two levels. Level 1 : Fixed     ||\n";
     cout<<"\t\t ||  priority preemptive Scheduling. Level 2 : Round Robin Scheduling For a Fixed priority  ||\n";
     cout<<"\t\t ||  the Priority 0 is highest priority. If one process P1 is scheduled and running, another||\n";
@@ -530,4 +530,4 @@ int main()
     system("pause");
     return 0;
 }
-© 2020 GitHub, Inc.
+
