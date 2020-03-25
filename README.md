@@ -4,12 +4,7 @@
 #include<windows.h>                                    //Sleep() function
 using namespace std;
 long max_arrival=-1,min_arrival=LONG_MAX,warning=1;     //Global Variable
-/*
-max_arrival will store the maximim arrival time of a process
-min_arrival will store the minimul arrival time of a process
-warning will store the no. of warning that came in during
-program execution(due to user input and constraints)
-*/
+
 struct Process
 {
     long pid=0;                                       //Process ID
@@ -490,7 +485,6 @@ int main()
 	this function may take upto more then 5 seconds
 	*/
     long n,temp=0,time_q,time=0;
-    cout<<"\t\t\tOperating System Scheduling\n\t\t\t\t\t\t-Garvit Joshi\n";
     cout<<"Enter No. Of Processes:";
     cin	>>n;
 	while(n<=0)
